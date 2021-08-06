@@ -6,7 +6,7 @@ steps:
 timeout: 86400s
 options:
   pool:
-    name: 'projects/playground-s-11-51032b87/locations/us-east4/workerPools/us-east4'  
+    name: 'projects/playground-s-11-51032b87/locations/us-east1/workerPools/us-east1'  
     
 
 
