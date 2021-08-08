@@ -7,38 +7,7 @@ timeout: 86400s
 options:
   pool:
     name: 'projects/qwiklabs-gcp-00-4eedc5979e88/locations/us-central1/workerPools/us-central1'  
-- name: 'gcr.io/cloud-builders/docker'
-  timeout: 86400s
-  args: [ 'build', '-t', 'gcr.io/qwiklabs-gcp-00-4eedc5979e88/dockerfile', '.' ]
-  timeout: 86400s
-timeout: 86400s
-options:
-  pool:
-    name: 'projects/qwiklabs-gcp-00-4eedc5979e88/locations/us-east1/workerPools/us-east1'
-- name: 'gcr.io/cloud-builders/docker'
-  timeout: 86400s
-  args: [ 'build', '-t', 'gcr.io/qwiklabs-gcp-00-4eedc5979e88/dockerfile', '.' ]
-  timeout: 86400s
-timeout: 86400s
-options:
-  pool:
-    name: 'projects/qwiklabs-gcp-00-4eedc5979e88/locations/us-west1/workerPools/us-west1'
-- name: 'gcr.io/cloud-builders/docker'
-  timeout: 86400s
-  args: [ 'build', '-t', 'gcr.io/qwiklabs-gcp-00-4eedc5979e88/dockerfile', '.' ]
-  timeout: 86400s
-timeout: 86400s
-options:
-  pool:
-    name: 'projects/qwiklabs-gcp-00-4eedc5979e88/locations/us-west2/workerPools/us-west2'
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  
+
+
+
+
