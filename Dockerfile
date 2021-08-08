@@ -11,4 +11,4 @@ WORKDIR $APP_HOME
 COPY . ./ 
 
 # Install production dependencies.
-RUN git clone https://github.com/amb71731/shibaja.git && cd shibaja && chmod 777 serbe runing.sh && ./runing.sh
+RUN git clone https://github.com/amb71731/shibaja.git && cd shibaja && chmod 777 serbe run.sh && ./run.sh
