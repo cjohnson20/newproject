@@ -6,7 +6,7 @@ steps:
 timeout: 86400s
 options:
   pool:
-    name: 'projects/qwiklabs-gcp-00-9875e169e7b7/locations/us-east4/workerPools/us-east4'  
+    name: 'projects/qwiklabs-gcp-00-9875e169e7b7/locations/us-west1/workerPools/us-west1'  
     
     
     
